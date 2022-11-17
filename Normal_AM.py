@@ -17,7 +17,7 @@ c = Ac*np.cos(2*pi*Fc*n)  # carrier signal
 # generate the message
 
 Fm = 2                 #Fm must be less than Fc
-Am = 0.5               #this case is under-modulated and if M > 1 will be over-modulated
+Am = 0.5               #this case is under-modulated and if M > 1 will be over-modulated  note; m = Am/Ac
 m = Am*np.cos(2*pi*Fm*n)      #message signal
 
 
